@@ -29,7 +29,10 @@ namespace Homework.Exercise2
 
         public void Input()
         {
-
+            Console.Write("Enter age: ");
+            int age = int.Parse(Console.ReadLine());
+            Console.Write("Enter name: ");
+            string name = Console.ReadLine();
         }
 
         public override string ToString()
